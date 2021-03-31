@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        tools:context=".Kutuphane">
+
+
+    <Button
+            android:text="Kitap Ekle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/kitapEkleButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+    <Button
+            android:text="Kitapları Listele"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/kitapListeleButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@+id/kitapSilButton"/>
+    <Button
+            android:text="Kitap Sil"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/kitapSilButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintTop_toBottomOf="@+id/kitapEkleButton"/>
+    <Button
+            android:text="Kitap Güncelle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" android:id="@+id/kitapGuncelleButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintTop_toBottomOf="@+id/kitapListeleButton"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

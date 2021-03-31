@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+    <!--Book Name -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/bookNameList"
+              android:hint="No book added!"
+              android:textSize="18sp"
+              android:textStyle="bold"
+              android:textColor="@color/colorPrimaryDark"/>
+
+    <!--Author Name -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/authorNameList"
+              android:textSize="14sp"
+              android:textColor="@color/colorPrimaryDark"/>
+
+    <!--Book Id -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/bookIdList"
+              android:textSize="14sp"
+              android:textColor="@color/colorPrimaryDark"/>
+
+    <!--Category Of Book -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/categoryOfBookList"
+              android:textSize="14sp"
+              android:textColor="@color/colorPrimaryDark"/>
+
+    <!--Page Size -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/pageSizeList"
+              android:textSize="14sp"
+              android:textColor="@color/colorPrimaryDark"/>
+
+    <!--Publish Year -->
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/publishYearList"
+              android:textSize="14sp"
+              android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

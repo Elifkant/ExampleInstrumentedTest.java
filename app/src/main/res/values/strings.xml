@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LibraryAutomation</string>
+
+    <!-- Textview keywords -->
+    <string name="book_name">Book Name</string>
+    <string name="author_name">Author Name</string>
+    <string name="book_id">Book Id</string>
+    <string name="publish_year">Publish Year</string>
+    <string name="page_size">Page Size</string>
+    <string name="category_of_book">Category of Book</string>
+
+    <!-- Button keywords-->
+    <string name="add_book">Add Book</string>
+    <string name="delete_book">Delete Book</string>
+    <string name="list_books">List Books</string>
+    <string name="update_book">Update Book</string>
+
+    <string name="kitap_sil">Sil</string>
+
+</resources>
